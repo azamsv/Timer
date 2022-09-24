@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("../assets/img/formula2.webp") no-repeat center/cover;
+    font-family: sans-serif;
+}
+
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer__time {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.timer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.timer__btn button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    transition: .3s;
+}
+.timer__start {
+    background-color: #0c6e15;
+}
+.timer__start:hover {
+    background-color: #15851e;
+}
+.timer__pause {
+    background-color: #13579f;
+}
+.timer__pause:hover {
+    background-color: #2670be;
+}
+.timer__reset {
+    background-color: #b62f2f;
+}
+.timer__reset:hover {
+    background-color: #da3c3c;
+}
+
+
+
+
